@@ -1,0 +1,463 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+flex-direction: column;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 15%;
+    box-shadow: 0px 1px 5px 2px rgb(233, 233, 233);
+    position: fixed;
+}
+
+.menu {
+    /*background-color: chocolate;*/
+    width: 42%;
+    height: auto;
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.menu ul li a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}  
+
+.contacto {
+    background-color: #FFE343;
+    color: lightslategray;
+    border-radius: 20px;
+}
+
+.contacto:hover{
+    background-color: #fcee9f;
+    color: rgb(88, 84, 84);
+}
+
+.boton a:hover {
+    color:#FFE343;
+}
+/*Fin menu*/
+
+.container-presentation {
+    width: 100%;
+    height: 970px;
+    /*background-color: lightpink;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-section {
+    width: 90%;
+    height: 760px;
+    display: flex;
+    flex-direction: row;
+    /*background-color: lime;*/
+    align-items: center;
+    padding: 0 15%;
+}
+
+.presentation {
+    
+    display: flex;
+    width: 50%;
+    /*align-items: center;*/
+    flex-direction: column;
+}
+
+ .hola{
+     width: 100%;
+     height: 250px;
+     /*background-color: lightslategrey;*/
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    
+}
+
+h1 {
+    /*background-color: mediumorchid;*/
+    font-size: 30px;
+}
+h2 {
+    font-size: 60px;
+    color: #FFE343;
+}
+
+p {
+    font-size: 20px;
+    color: lightslategray;
+}
+button {
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #FFE343;
+    font-size: 20px;
+    color: lightslategray;
+   
+}
+
+.presentation button:hover{
+    background-color: #fcee9f;
+    color: rgb(88, 84, 84);
+}
+
+figure {
+    width: 50%;
+    height: auto;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+/*Fin Presentation*/
+
+.skills {
+    width: 100%;
+    height: 100vh;
+    /*background-color: magenta;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-mis-conocimientos {
+    display: flex;
+    width: 90%;
+    height: 20vh;
+    /*background-color: mediumaquamarine;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-mis-conocimientos h1 {
+    width: 100%;
+    height: auto;
+    /*background-color: blanchedalmond;*/
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box-mis-conocimientos p {
+    width: 20%;
+    height: 40vh;
+    font-size: 20px;
+    /*background-color: coral;*/
+    display: flex;
+    align-items: center;
+    
+}
+
+.box-botones-skills {
+    width: 50%;
+    height: 70vh;
+    /*background-color: cornflowerblue;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.box-botones-skills div {
+    background-color: white;
+    width: 230px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    justify-content: space-evenly;
+    border-radius: 7px;
+}
+.box-botones-skills div:hover {
+    border: solid 2px #FFE343;
+}
+
+.box-botones-skills div i {
+    font-size: 75px;
+}
+
+.box-botones-skills div p {
+    font-size: 20px;
+    color: black;
+}
+
+/*Fin SKILLS*/
+
+.someone {
+    width: 100%;
+    height: 500px;
+    background-color: #FFE343;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-someone {
+    width: 100%;
+    height: 40vh;
+    /*background-color: rgb(163, 119, 62);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-someone i {
+    font-size: 75px;
+    color: white;
+   /* background-color: tomato;*/
+   text-shadow:-1px -1px 0 lightslategray;
+}
+
+.box-someone p {
+    width: 50%;
+    height: auto;
+    font-size: 32px;
+    color: lightslategray;
+    /*background-color: teal;*/
+}
+
+.box-someone h2 {
+    font-size: 30px;
+    color: white;
+    /*background-color: tomato;*/
+    text-shadow:-1px -1px 0 lightslategray;
+}
+
+/*Fin SOMEONE*/
+
+.mis-proyectos {
+    width: 100%;
+    height: 180vh;
+    /*background-color: violet;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+}
+.box-proyectos {
+    width: 70%;
+    height: auto;
+    /*background-color: thistle;*/
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.texto-proyectos {
+    width: 100%;
+    height: auto;
+    /*background-color: turquoise;*/
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-proyectos h1 {
+    color: black;
+    font-size: 60px;
+}
+.texto-proyectos p {
+    font-size: 20px;
+    color: lightslategray;
+    width: 20%;
+    /*background-color: tomato;*/
+}
+.box-img {
+    width: 70%;
+    height: 160vh;
+    /*background-color: wheat;*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.box-img a div {
+    width: 380px;
+    height: 370px;
+    background-color: white;
+    border-radius: 10px;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen {
+    width: 70%;
+    height: 32vh;
+    /*background-color: tomato;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
+.box-img a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: black;
+ }
+
+.png {
+    width: auto;
+    height: 230px;
+}
+
+.box-img a div:hover {
+    border: solid 1px lightslategray;
+}
+
+/*Fin MIS PROYECTOS*/
+
+.contactame {
+    width: 100%;
+    height: 100vh;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-contacto {
+    width: 70%;
+    height: 80vh;
+    background-color: cornsilk;
+    
+}
+ /* Fin contactame*/
+
+ footer {
+     width: 100%;
+     height: 25vh;
+     background-color: #FFE343;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+ }
+
+ .box-iconos {
+     width: 70%;
+     height: 20vh;
+     /*background-color: cyan;*/
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+
+ .lista-texto {
+     width: 38%;
+     height: auto;
+     /*background-color: darkgoldenrod;*/
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+
+ }
+ .lista-texto ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+.lista-texto ul a  {
+     text-decoration: none;
+     list-style: none;
+     color: white;
+    padding: 2%;
+ }
+
+ .lista-iconos{
+    width: 38%;
+    height: auto;
+    /*background-color: rgb(180, 42, 162);*/
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.lista-iconos ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ .lista-iconos ul a {
+     text-decoration: none;
+     list-style: none;
+     padding: 10%;
+ }
+
+
+ .lista-iconos ul a li i {
+     width: 150%;
+     height: 5vh;
+    /*background-color: tomato;*/
+     display: flex;
+     font-size: 35px;
+     color: black;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
+     border: solid 1px rgb(0, 0, 0);
+     text-shadow:-1px -1px 0 lightslategray;
+     
+ }
+
+ .lista-iconos ul a li i:hover {
+background-color: rgb(0, 0, 0);
+color: #FFE343;
+}
+
+.scroll {
+    padding: 0;
+    margin: 0;
+}
