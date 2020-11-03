@@ -60,7 +60,7 @@ header {
     display: flex;
     text-decoration: none;
     color: var(--Cparrafos);
-    padding: 10px;
+    padding:  10px; 
     font-size: 20px;
     /*background-color: lightcoral;*/
 }  
@@ -142,8 +142,8 @@ p {
     color: var(--Cparrafos2);
 }
 button {
-    width: 170px;
-    height: 50px;
+    width: 8.854vw;
+    height: 5.611vh;
     border-radius: 10px;
     border-style: none;
     background-color: var(--Csecundario);
@@ -226,8 +226,8 @@ figure img {
 .box-botones-skills div {
     /*background-color: var(--Cprincipal);*/
     background-color: var(--Csecundario);
-    width: 230px;
-    height: 260px;
+    width: 12.150vw;
+    height: 28.571vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -347,7 +347,7 @@ figure img {
 }
 .box-img a div {
     width: 380px;
-    height: 370px;
+    height: 39.913vh;
     background-color: white;
     border-radius: 10px;
     display: flex;
@@ -623,12 +623,14 @@ figure img {
     outline: none;
 }
 
-#name:valid , #subname:valid , #mail:valid , #textarea:valid {
+#name:valid:focus , #subname:valid:focus , #mail:valid:focus , #textarea:valid:focus {
     box-shadow: 0 0 5px 0 rgb(16, 155, 16);
+    border: none;
 }
-/*#name:invalid , #subname:invalid , #mail:invalid , #textarea:invalid {
+#name:invalid:focus , #subname:invalid:focus , #mail:invalid:focus , #textarea:invalid:focus {
     box-shadow: 0 0 5px 0 rgb(158, 19, 19);
-}*/
+    border: none;
+}
 
 .box-enviar {
     width: 100%;
