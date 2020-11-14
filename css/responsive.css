@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media (min-width: 320px) and (max-width: 1024px){
+
+    header {
+        align-items: flex-start;
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+        /*padding-left: 2%:*/
+    }
+
+    .casita-baby-menu {
+     display: flex;
+    }
+
+    .menu {
+    
+      display: none;
+      align-items: flex-start;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #baby-menu:checked ~ .menu {
+       display: block;
+       
+    }
+
+
+   
+/* PRESENTATION*/ 
+
+.container-presentation {
+    width: 100vw;
+    height: auto;
+    
+}
+
+    .box-presentation{
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+       
+        
+        
+    }
+
+    .box-presentation-hola {
+        height: 50vh;
+        width: auto;
+       /*margin-bottom: 2%;*/
+       
+       margin: 30% 0 3% 0;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .linea-soy{
+        font-size: 1rem;
+    }
+
+    .linea-name {
+        font-size: 3rem;
+    }
+
+    .boton-hago {
+        width: auto;
+        height: auto;
+        margin-top: 2%;
+        padding: 4%;
+        text-align: center;
+    }
+
+    .container-img-presentation {
+        width: auto;
+        height: 50vh;
+}
+
+  
+
+    main {
+     width: 100vw;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+    }
+
+
+    /*SKILLS*/
+
+    .container-skills {
+        width: 100vw;
+        height: auto;
+        margin-top: 10%;
+    }
+
+    .box-skills {
+        width: auto;
+        height: auto;
+        margin: 4% 0;
+        
+    }
+
+    .titulo-conocimientos-skills {
+        font-size: 2.3rem;
+        text-align: center;
+        padding: 2% 0;
+    }
+
+    .texto-conocimientos-skills {
+        width: auto;
+        height: auto;
+
+    }
+
+    .box-botones-skills {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .box-botones-skills div {
+        width: 130px;
+        height: 160px;
+    }
+
+    /*SOMEONE*/
+
+    .someone {
+        width: 100vw;
+        height: auto;
+        margin: 3% 0;
+       
+    }
+
+    .box-someone {
+        width: auto;
+        height: auto; 
+        padding: 4%;
+    }
+
+    .box-someone p {
+        width: 80%;
+        height: auto;
+        font-size: 1rem;
+        margin: 2% 0;
+    }
+
+    .box-someone h2 {
+        width: auto;
+        height: auto;
+        font-size: 1.3rem;
+    }
+
+
+    /*MIS PROYECTOS*/
+
+    .mis-proyectos {
+        width: auto;
+        height: auto;
+        margin-bottom: 2%;
+
+
+
+    }
+    .box-proyectos {
+        width: auto;
+        height: auto;
+      margin-top: 4%;
+
+        
+    }
+
+    .texto-proyectos {
+        width: auto;
+        height: auto;
+    }
+    .texto-proyectos h1 {
+        font-size: 2.7rem;
+       
+    }
+
+    .texto-proyectos p {
+        width: 80%;
+        height: auto;
+        
+    }
+
+    .box-img {
+        width: 100vw;
+        height: auto;
+        /*flex-direction: column;*/
+        padding: 5%;
+        margin-top: 10%;
+    }
+
+    .box-img a div {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 4%;
+    }
+
+    .imagen {
+        width: 90%;
+        height: auto;
+    }
+
+ .png {
+    width: 100%;
+     height: 130px;
+ }
+
+
+ /*CONTACTAME*/
+
+ .contactame {
+     width: 100vw;
+     height: auto;
+     margin-bottom: 2%;
+ }
+
+ .box-contacto {
+     width: 90vw;
+     height: auto;
+     flex-direction: column;
+     margin: 4% 0 4%;
+ }
+
+.contactame-redes {
+    width: 85vw;
+    height: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.texto-redes {
+    height: auto;
+    margin-bottom: 2%;
+  
+}
+
+.titulo-redes {
+    font-size: 2.7rem;
+    margin-bottom: 2%;
+}
+
+.p-redes {
+    font-size: 1rem;
+}
+.lista-redes {
+    height: auto;
+   
+}
+
+.link-contactame {
+    width: 80vw;
+    height: 10vh;
+    
+}
+
+.contactame-link {
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+}
+
+.contactame-icono {
+    height: 6vh;
+}
+
+.escribime {
+    width: 85vw;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.titulo-escribime {
+    font-size: 2.7rem;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100vw;
+}
+
+.box-iconos {
+    width: 100%;
+}
+
+.lista-texto{
+    width: 90vw;
+}
+
+.lista-texto ul a {
+    font-size: 0.7rem;
+}
+
+.lista-iconos ul a li i {
+ 
+    
+}
+}

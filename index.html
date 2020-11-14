@@ -3,6 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Gabriela Duran">
+    <meta name="description" content= "proyecto de entrega ADA">
+    <meta name= "keywords" content="portafolio, developer, frontend, programaciom">
+
+    <meta property="og:title" content="Portafolio">
+    <meta property="og:description" content="Primer proyecto de entrega- ADA">
+    <meta property="og:type" content="Portafolio">
+    <meta property="og:site name" content="Portafolio-ADA" >
+    <meta property="og:url" content="https://mandisa-94.github.io/Portafolio/">
+    <meta property="og:image" content="./img/meta-img.jpg">
+  
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
@@ -12,8 +25,10 @@
 <body>
     <header>
         <!--Menu-->
+    <input type="checkbox" id="baby-menu">
+    <label for="baby-menu" class="casita-baby-menu"><img src="./img/bb-menu.png" alt="" class="png-baby-menu"></label>
+
         <nav class="menu">
-            
             <ul>
                 <li class="boton"><a href="#boton-hola">HOLA</a></li>
                 <li class="boton"><a href="#boton-conocimientos">CONOCIMIENTOS</a></li>
@@ -30,28 +45,28 @@
        
           <section class="container-presentation">
         
-             <section class="box-section">
+             <article class="box-presentation">
 
-                 <div class="presentation">
+                 <div class="box-presentation-hola">
 
-                      <div class="hola">
-                         <h1>Hola! Soy</h1>
-                         <h2>Gabriela Duran</h2>
-                         <p>Desarrolladora, Visual Merchandiser y Gamer</p>
+                      <div class="hola-presentation">
+                         <h1 class="linea-soy">Hola! Soy</h1>
+                         <h2 class="linea-name">Gabriela Duran</h2>
+                         <p class="linea-fortalezas">Desarrolladora, Visual Merchandiser y Gamer</p>
                       </div>
 
-                    <button>
+                    <button class="boton-hago">
                          Lo que hago
                     </button>
 
                  </div>
 
         
-                <figure>
-                      <img src="./img/Portafolio2.png" alt="imagen inspiracional">
-                 </figure>
+                <figure class="container-img-presentation">
+                      <img class="box-img-presentation" src="./img/Portafolio2.png" alt="imagen inspiracional">
+                </figure>
      
-            </section>
+            </article>
          </section>
          
          
@@ -62,11 +77,10 @@
          
            <a class="scroll" name="boton-conocimientos"></a>
 
-              <section class="skills">
-      
-                  <div class="box-mis-conocimientos">
-                         <h1> Mis Conocimientos</h1>
-                         <p class="texto-conocimientos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, vel distinctio asperiores impedit perspiciatis inventore.</p>
+              <section class="container-skills">
+                 <article class="box-skills">
+                         <h1 class="titulo-conocimientos-skills"> Mis Conocimientos</h1>
+                         <p class="texto-conocimientos-skills">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, vel distinctio asperiores impedit perspiciatis inventore.</p>
                  
                         <div class="box-botones-skills">
                 
@@ -101,7 +115,7 @@
                              </div>
              
                         </div>
-                  </div>
+                  </article>
                  </section> 
         
                               <!--Fin Skills-->
@@ -200,16 +214,15 @@
                             </div>
                          </a>
 
-                        <a href="#">
-                             <div>
-                                 <figure class="imagen">
-                                     <img src="./img/search2.png" alt="search ilustracion">
-                          
-                                    <figcaption>Buscador de peliculas</figcaption>
-                                </figure>
-                             </div>
-                         </a>
-
+                         <a href="#">
+                            <div>
+                                <figure class="imagen">
+                                    <img class="png" src="./img/search2.png" alt="search ilustracion">
+                         
+                                   <figcaption>Buscador de peliculas</figcaption>
+                               </figure>
+                            </div>
+                        </a>
                     </section>
              </section>
          </section> 
@@ -220,20 +233,18 @@
 
 
              <!--Contactame--> 
-             <a class="scroll" name="boton-contacto"></a>          
-                 <section class="contactame">
+    <a class="scroll" name="boton-contacto"></a>          
+    <section class="contactame">
              
-                <section class="box-contacto">
-
-                    <div class="contactame-redes">
-                        <div class="texto-redes">
-                        <h1 class="titulo-redes">Contactame</h1>
-                        <p class="p-redes">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore explicabo autem maiores ex eaque ut illum modi delectus nulla quo ad aut nesciunt ipsa odio rem, a et deserunt cumque!</p>
-                        </div>
+        <section class="box-contacto">
+             <div class="contactame-redes">
+                 <div class="texto-redes">
+                         <h1 class="titulo-redes">Contactame</h1>
+                         <p class="p-redes">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore explicabo autem maiores ex eaque ut illum modi delectus nulla quo ad aut nesciunt ipsa odio rem, a et deserunt cumque!</p>
+                     </div>
 
                         <ul class="lista-redes">
-
-                            <li class="link-contactame">
+                             <li class="link-contactame">
                                 <a class="contactame-link" href="#">
                                     <i class="fab fa-twitter contactame-icono"></i>
                                     @Gaba_KillMe
@@ -266,7 +277,7 @@
 
                     <div class="escribime">
                          <h1 class="titulo-escribime">Escribime</h1>
-                        <div class="container-formulario">
+                         <div class="container-formulario">
                              <form action="" class="box-formulario">
                                 <div class="box-nombre-apellido">
                                      <div class="box-nombre">

@@ -12,6 +12,7 @@ flex-direction: column;
 align-items: center;
 font-family: 'Raleway', sans-serif;
 /*background-color: var(--Cprincipal);*/
+
 }
 
 :root {
@@ -36,13 +37,35 @@ header {
    position: fixed;
 }
 
+#baby-menu {
+    display: none;
+
+}
+
+.casita-baby-menu {
+    display: none;
+    /*border: solid 1px var(--Csecundario);*/
+     border-radius: 10px;
+     /*width: 17%;*/
+     width: 50px;
+     height: 50px;
+     margin: 4% 0 2% 5%;
+     
+     justify-content: center;
+     /*background-color: var(--Cprincipal);*/
+     
+}
+
+.casita-baby-menu:hover {
+/*border: solid 1px var(--ChoverP);*/
+
+}
+
 .menu {
     /*background-color: chocolate;*/
     width: 42%;
-    /*height: 9.29vh;*/
     height: auto;
     display: flex;
-    
 }
 
 .menu ul {
@@ -60,8 +83,8 @@ header {
     display: flex;
     text-decoration: none;
     color: var(--Cparrafos);
-    padding:  10px; 
-    font-size: 20px;
+    padding:  0.625rem; 
+    font-size: 1.2em;
     /*background-color: lightcoral;*/
 }  
 
@@ -85,6 +108,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .container-presentation {
@@ -97,7 +121,7 @@ main {
    
 }
 
-.box-section {
+.box-presentation {
     width: 70%;
     height: 70vh;
     display: flex;
@@ -107,7 +131,7 @@ main {
     /*padding: 0 15%;*/
 }
 
-.presentation {
+.box-presentation-hola {
 
     /*background-color: burlywood;*/
     display: flex;
@@ -117,7 +141,7 @@ main {
     justify-content: space-evenly;
 }
 
- .hola{
+ .hola-presentation{
      width: auto;
      height: auto;
      /*background-color: lightslategrey;*/
@@ -127,48 +151,48 @@ main {
     
 }
 
-h1 {
+.linea-soy {
     /*background-color: mediumorchid;*/
-    font-size: 30px;
+    font-size: 1.875rem;
     color: var(--Cparrafos);
 }
-h2 {
-    font-size: 60px;
+.linea-name {
+    font-size: 3.75rem;
     color: var(--Csecundario);
 }
 
-p {
-    font-size: 20px;
+.linea-fortalezas {
+    font-size: 1.25rem;
     color: var(--Cparrafos2);
 }
-button {
+.boton-hago {
     width: 8.854vw;
     height: 5.611vh;
     border-radius: 10px;
     border-style: none;
     background-color: var(--Csecundario);
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--Cparrafos2);
    
 }
 
-.presentation button:hover{
+.presentation .boton-hago:hover{
     background-color: var(--Chover);
     color: var(--ChoverP);
 }
 
-figure {
+.container-img-presentation{
     width: 50%;
     height: auto;
 }
 
-figure img {
+.box-img-presentation{
     width: 100%;
     height: auto;
 }
 /*Fin Presentation*/
 
-.skills {
+.container-skills {
     width: 100%;
     height: 110vh;
     /*background-color: magenta;*/
@@ -177,9 +201,10 @@ figure img {
     align-items: center;
     justify-content: space-evenly;
     border-top: solid 1px var(--Csecundario);
+    
 }
 
-.box-mis-conocimientos {
+.box-skills {
     display: flex;
     width: 90%;
     height: 80vh;
@@ -190,23 +215,24 @@ figure img {
   
 }
 
-.box-mis-conocimientos h1 {
+.titulo-conocimientos-skills {
     width: 100%;
     height: auto;
     /*background-color: blanchedalmond;*/
-    font-size: 60px;
+    font-size: 3.75rem;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 
-.texto-conocimientos {
+.texto-conocimientos-skills {
     width: 20%;
     height: 40vh;
-    font-size: 20px;
+    font-size: 1.25rem;
     /*background-color: coral;*/
     display: flex;
+    text-align: center;
     align-items: center;
     
 }
@@ -226,8 +252,8 @@ figure img {
 .box-botones-skills div {
     /*background-color: var(--Cprincipal);*/
     background-color: var(--Csecundario);
-    width: 12.150vw;
-    height: 28.571vh;
+    width: 230px;
+    height: 260px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,11 +266,11 @@ figure img {
 }
 
 .box-botones-skills div i {
-    font-size: 75px;
+    font-size: 4.6875rem;
 }
 
 .box-botones-skills div p {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--Cparrafos);
 }
 
@@ -271,7 +297,7 @@ figure img {
 }
 
 .box-someone i {
-    font-size: 75px;
+    font-size: 4.6875rem;
     color: var(--Cprincipal);
    /* background-color: tomato;*/
    text-shadow:-1px -1px 0 lightslategray;
@@ -280,13 +306,13 @@ figure img {
 .box-someone p {
     width: 50%;
     height: auto;
-    font-size: 32px;
+    font-size: 2rem;
     color: lightslategray;
     /*background-color: teal;*/
 }
 
 .box-someone h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
     color: white;
     /*background-color: tomato;*/
     text-shadow:-1px -1px 0 lightslategray;
@@ -327,11 +353,11 @@ figure img {
 
 .texto-proyectos h1 {
     color: black;
-    font-size: 60px;
+    font-size: 3.75rem;
     /*background-color: teal;*/
 }
 .texto-proyectos p {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--Cparrafos2);
     width: 20%;
     /*background-color: tomato;*/
@@ -343,17 +369,19 @@ figure img {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-
+    /*background-color: saddlebrown;*/
 }
 .box-img a div {
     width: 380px;
-    height: 39.913vh;
+    height: 380px;
     background-color: white;
+    /*background-color: rgb(189, 230, 173);*/
     border-radius: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    border: 1px solid var(--Cprincipal);
 }
 
 .imagen {
@@ -362,7 +390,7 @@ figure img {
     /*background-color: tomato;*/
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
 
 }
@@ -371,7 +399,7 @@ figure img {
 .box-img a {
     text-decoration: none;
     list-style: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--Cparrafos);
  }
 
@@ -394,7 +422,7 @@ figure img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 1px var(--Csecundario);
+    border-top: solid 1px var(--Csecundario);
 }
 .box-contacto {
     width: 70%;
@@ -404,6 +432,7 @@ figure img {
     align-items: center;
     border: solid 1px var(--Cparrafos2);
     border-radius: 20px;
+    /*background-color: yellow*/;
 }
 
 .contactame-redes {
@@ -431,14 +460,14 @@ figure img {
     width: auto;
     height: auto;
     /*background-color: lightsalmon;*/
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .p-redes {
     width: auto;
     height: auto;
     /*background-color: navajowhite;*/
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--Cparrafos2);
 }
 
@@ -446,7 +475,7 @@ figure img {
     width: auto;
     height: 35vh;
     /*background-color: olive;*/
-    font-size: 25px;
+    font-size: 1.5625rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -471,7 +500,7 @@ figure img {
 .contactame-link {
     width: 95%;
     height: 6vh;
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: var(--Cparrafos2);
     text-decoration: none;
     /*background-color: mistyrose;*/
@@ -487,10 +516,11 @@ figure img {
     height: 4vh;
     border: solid 1px var(--Csecundario);
     border-radius: 50%;
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: var(--Csecundario);
-    padding: 5px;
+    padding: 2%;
     margin-right: 5px;
+    
 }
 
 
@@ -513,7 +543,7 @@ figure img {
 }
 
 .titulo-escribime {
-    font-size: 50px;
+    font-size: 3.125rem;
     /*background-color: lightskyblue;*/
 }
 
@@ -561,7 +591,7 @@ figure img {
     height: auto;
     /*background-color: lightblue;*/
     display: flex;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 
  #name ,#subname {
@@ -572,6 +602,7 @@ figure img {
     outline: none;
     border: solid 1px var(--Cparrafos2);
     padding: 0 10px;
+    background-color: var(--Csecundario);
 }
 
 .box-email {
@@ -584,7 +615,7 @@ figure img {
 }
 
 .box-email label {
-    font-size: 25px;
+    font-size: 1.5625rem;
     /*background-color: lightskyblue;*/
     display: flex;
 }
@@ -597,6 +628,7 @@ figure img {
     outline: none;
     border: solid 1px var(--Cparrafos2);
     padding: 0 10px;
+    background-color: var(--Csecundario);
 }
 
 .box-mensaje {
@@ -610,7 +642,7 @@ figure img {
 }
 
 .box-mensaje label {
-    font-size: 25px;
+    font-size: 1.5625rem;
     /*background-color: lightskyblue;*/
     display: flex;
 }
@@ -621,7 +653,11 @@ figure img {
     border-radius: 10px;
     padding: 5px 10px;
     outline: none;
+    background-color: var(--Csecundario);
+    
 }
+
+
 
 #name:valid:focus , #subname:valid:focus , #mail:valid:focus , #textarea:valid:focus {
     box-shadow: 0 0 5px 0 rgb(16, 155, 16);
@@ -642,7 +678,7 @@ figure img {
 .enviar {
     width: 40%;
     height: 5vh;
-    font-size: 17px;
+    font-size: 1.0625rem;
    border-radius: 15px;
    border: none;
    background-color: var(--Csecundario);
@@ -730,11 +766,12 @@ figure img {
 
 
  .lista-iconos ul a li i {
-     width: 150%;
-     height: 5vh;
+     width: 154%;
+     height: 4.2vh;
     /*background-color: tomato;*/
      display: flex;
-     font-size: 35px;
+     font-size: 2.1875rem;
+     /*font-size: 1.7rem;*/
      color: var(--Cparrafos);
      align-items: center;
      justify-content: center;
