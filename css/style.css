@@ -784,5 +784,10 @@ main {
  .lista-iconos ul a li i:hover {
 background-color: var(--Cparrafos);
 color: var(--Csecundario);
+
+}
+
+.frase-cierre-footer {
+    color: var(--Cparrafos);
 }
 
