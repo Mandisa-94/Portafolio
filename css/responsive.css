@@ -273,19 +273,22 @@
 }
 .lista-redes {
     height: auto;
-   
+    
+
 }
 
 .link-contactame {
-    width: 80vw;
-    height: 10vh;
     
+    width: 80%;
+    height: 10vh;
+  
 }
 
 .contactame-link {
+    
     width: 100%;
     height: auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .contactame-icono {
@@ -419,6 +422,7 @@ main {
 
 
 @media (min-width: 700px){
+
 
     /* PRESENTATION*/ 
     .box-presentation-hola {
@@ -584,7 +588,7 @@ header {
 
 }
 
-@media (max-width:280px) {
+@media (max-width:280px){
 
 header {
     padding: 2%;
@@ -630,9 +634,7 @@ height: 50%;
    
     width: 100%;
 }
-.link-contactame {
-   
-}
+
 
 .contactame-link {
     width: 100%;
@@ -652,6 +654,159 @@ height: 50%;
 }
 
 
+@media (min-width:360px) and (max-width:500px){
+
+    header {
+        margin: 0 5%;
+        padding: 10% 0;
+      
+    }
 
 
 
+    /*PRESENTACION*/
+    .container-presentation{
+        margin-top: 15%;
+      
+    }
+ 
+    .box-presentation {
+        width: auto;
+        height: 100vh;
+       ;
+    }
+
+    .box-presentation-hola{
+        width: 95vw;
+        height: 50vh;
+      
+    }
+    .linea-soy{
+        font-size: 2rem;
+    }
+
+
+ 
+    .container-img-presentation {
+        width: auto;
+        height: 50%;
+    }
+
+    .box-img-presentation {
+        height: 70%;
+    }
+
+
+    /*CONTACTAME*/
+
+    .lista-redes {
+   
+        width: 100%;
+    }
+    
+    
+    .contactame-link {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+
+    /*FOOTER*/
+
+    .lista-texto ul a {
+        font-size: 0.6rem;
+    }
+    
+    .lista-iconos ul a li i {
+        font-size: 1.5rem;
+        }
+}
+
+
+@media (max-width:320px){
+
+
+    
+    /*PRESENTACION*/
+    .container-presentation{
+        margin-top: 15%;
+      
+    }
+ 
+    .box-presentation {
+        width: auto;
+        height: 100vh;
+       ;
+    }
+
+    .box-presentation-hola{
+        width: 95vw;
+        height: 50vh;
+      
+    }
+    .linea-soy{
+        font-size: 2rem;
+    }
+
+
+ 
+    .container-img-presentation {
+        width: auto;
+        height: 50%;
+    }
+
+    .box-img-presentation {
+        height: 70%;
+    }
+
+ /*CONTACTAME*/
+
+ .lista-redes {
+   
+    width: 100%;
+}
+
+
+.contactame-link {
+    width: 100%;
+    font-size: 1rem;
+}
+
+
+    /*FOOTER*/
+    
+    .lista-texto ul a {
+        font-size: 0.6rem;
+    }
+    
+    .lista-iconos ul a li i {
+        font-size: 1.5rem;
+        }
+}
+
+@media (max-width:375px){
+ /*CONTACTAME*/
+
+ .lista-redes {
+   
+    width: 100%;
+    
+}
+
+
+.contactame-link {
+    
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+  
+    
+}
+
+.contactame-icono {
+    
+    width: auto;
+    height: 5vh;
+}
+
+}
