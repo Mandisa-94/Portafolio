@@ -95,11 +95,11 @@ header {
 
 .contacto:hover{
     background-color: var(--Chover);
-    color: rgb(88, 84, 84);
+    
 }
 
-.boton a:hover {
-    color: var(--Csecundario);
+.boton-hago:hover {
+    background-color: var(--Chover);
 }
 /*Fin menu*/
 
@@ -443,6 +443,7 @@ main {
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
+    
 }
 
 .texto-redes {
@@ -485,8 +486,8 @@ main {
 }
 
 .link-contactame {
-    width: 60%;
-    height: 7vh;
+    width: 65%;
+    height: auto;
     /*background-color: mediumorchid;*/
     list-style: none;
     display: flex;
@@ -498,7 +499,7 @@ main {
 
 
 .contactame-link {
-    width: 95%;
+    width: 100%;
     height: 6vh;
     font-size: 1.5625rem;
     color: var(--Cparrafos2);
@@ -520,7 +521,7 @@ main {
     color: var(--Csecundario);
     padding: 2%;
     margin-right: 5px;
-    
+    /*background-color: dodgerblue;*/
 }
 
 

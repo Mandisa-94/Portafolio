@@ -59,18 +59,17 @@
 
 .container-presentation {
     width: 100vw;
-    height: 100vh;
-
+    height: auto;
     align-items: flex-start;
 }
 
     .box-presentation{
-        height: 100vh;
+        height: 90vh;
         width: auto;
         flex-direction: column;
         text-align: center;
        
-         }
+}
 
     .box-presentation-hola {
         height: 50vh;
@@ -87,7 +86,7 @@
     }
 
     .linea-name {
-        font-size: 2rem;
+        font-size: 2.7rem;
     }
 
     .boton-hago {
@@ -419,7 +418,7 @@ main {
 
 
 
-@media (min-width: 700px){
+@media (min-width: 700px) and (max-width: 900px){
 
 
     /* PRESENTATION*/ 
@@ -454,24 +453,26 @@ main {
  }
 
  .contactame-icono {
-     font-size: 2rem;
-    height: 4.5vh;
+     font-size: 1.5rem;
+    height: 5vh;
  }
 
  /*FOOTER*/
-
-.lista-texto ul a {
+.lista-texto ul a li {
     font-size: 1rem;
 }
 
 .lista-iconos ul a li i {
- font-size: 1.7rem;
-    
-}
+    /*background-color: greenyellow;*/
+    width: 150%;
+    height: 8vh;
+
+} 
+
 }
 
 
-@media (max-width:1024px){
+@media (width:1024px){
 
 /*HEADER*/
 
@@ -556,7 +557,7 @@ header {
     }
 }
 
-@media (max-width:540px){
+@media (width:540px){
 
     /*HEADER*/
 
@@ -595,7 +596,7 @@ header {
 
 }
 
-@media (max-width:280px){
+@media (width:280px){
 
 header {
     padding: 2%;
@@ -726,9 +727,11 @@ height: 50%;
 }
 
 
-@media (max-width:320px){
+@media (width:320px){
 
-
+header {
+    margin: 0;
+}
 
  /*CONTACTAME*/
  .container-img-presentation {
@@ -752,6 +755,10 @@ height: 50%;
     font-size: 1rem;
 }
 
+.contactame-icono {
+    font-size: 1rem;
+}
+
 
     /*FOOTER*/
     
@@ -760,11 +767,11 @@ height: 50%;
     }
     
     .lista-iconos ul a li i {
-        font-size: 1.5rem;
+        font-size: 1rem;
         }
 }
 
-@media (max-width:375px){
+@media (width:375px){
  /*CONTACTAME*/
 
  .lista-redes {
