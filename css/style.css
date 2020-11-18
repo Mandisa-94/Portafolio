@@ -602,7 +602,7 @@ main {
     outline: none;
     border: solid 1px var(--Cparrafos2);
     padding: 0 10px;
-    background-color: var(--Csecundario);
+    
 }
 
 .box-email {
@@ -628,7 +628,6 @@ main {
     outline: none;
     border: solid 1px var(--Cparrafos2);
     padding: 0 10px;
-    background-color: var(--Csecundario);
 }
 
 .box-mensaje {
@@ -653,7 +652,7 @@ main {
     border-radius: 10px;
     padding: 5px 10px;
     outline: none;
-    background-color: var(--Csecundario);
+    
     
 }
 

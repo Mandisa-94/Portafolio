@@ -14,6 +14,8 @@
         background-color: transparent;
         box-shadow: none;
         /*padding-left: 2%:*/
+        position: static;
+       
     }
 
     .casita-baby-menu {
@@ -27,12 +29,14 @@
         width: auto;
         height: auto;
         background-color: transparent;
+      
     }
 
     .menu ul {
         flex-direction: column;
         align-items: flex-start;
-        padding: 3%;
+        /*padding: 3%;*/
+        
     }
 
     .menu ul li {
@@ -55,26 +59,26 @@
 
 .container-presentation {
     width: 100vw;
-    height: auto;
-    
+    height: 100vh;
+
+    align-items: flex-start;
 }
 
     .box-presentation{
         height: 100vh;
-        width: 100%;
+        width: auto;
         flex-direction: column;
         text-align: center;
        
-        
-        
-    }
+         }
 
     .box-presentation-hola {
         height: 50vh;
-        width: 90%;   
-       margin: 30% 0 3% 0;
+        width: auto;   
+       /*margin: 30% 0 3% 0;*/
        align-items: center;
        justify-content: center;
+       margin-bottom: 4%;
       
     }
 
@@ -83,7 +87,7 @@
     }
 
     .linea-name {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .boton-hago {
@@ -94,12 +98,6 @@
         text-align: center;
     }
 
-    .container-img-presentation {
-        width: auto;
-        height: 50vh;
-}
-
-  
 
     main {
      width: 100vw;
@@ -114,7 +112,7 @@
     .container-skills {
         width: 100vw;
         height: auto;
-        margin-top: 10%;
+        /*margin-top: 10%;*/
     }
 
     .box-skills {
@@ -426,12 +424,9 @@ main {
 
     /* PRESENTATION*/ 
     .box-presentation-hola {
-     margin: 5%;
+     margin: 10%;
    }
 
-   .box-img-presentation{
-    height: 45vh;
-}
 
 
  /*CONTACTAME*/
@@ -533,13 +528,13 @@ header {
     }
 
     .container-img-presentation {
-        width: 50vw;
-        height: auto;
+        width: auto;
+        height: 50vh;
 }
 
     .box-img-presentation{
-        width: 90%;
-        height: auto;
+        width: auto;
+        height: 80%;
 
     }
 
@@ -566,7 +561,7 @@ header {
     /*HEADER*/
 
     header {
-        padding: 6% 8%;
+        padding: 0% 6%;
     }
 
     /*CONTACTAME*/
@@ -575,6 +570,18 @@ header {
         justify-content: flex-start;
         width: 70%;
     }
+
+
+    /*SKILLS*/
+
+.box-skills {
+    width: 100vw;
+}
+
+.texto-conocimientos-skills {
+    width: 50%;
+    font-size: 1rem;
+}
 
     /*FOOTER*/
 
@@ -658,22 +665,18 @@ height: 50%;
 
     header {
         margin: 0 5%;
-        padding: 10% 0;
       
     }
 
 
 
     /*PRESENTACION*/
-    .container-presentation{
-        margin-top: 15%;
-      
-    }
+
  
     .box-presentation {
         width: auto;
         height: 100vh;
-       ;
+       
     }
 
     .box-presentation-hola{
@@ -726,40 +729,17 @@ height: 50%;
 @media (max-width:320px){
 
 
-    
-    /*PRESENTACION*/
-    .container-presentation{
-        margin-top: 15%;
-      
-    }
- 
-    .box-presentation {
-        width: auto;
-        height: 100vh;
-       ;
-    }
-
-    .box-presentation-hola{
-        width: 95vw;
-        height: 50vh;
-      
-    }
-    .linea-soy{
-        font-size: 2rem;
-    }
-
-
- 
-    .container-img-presentation {
-        width: auto;
-        height: 50%;
-    }
-
-    .box-img-presentation {
-        height: 70%;
-    }
 
  /*CONTACTAME*/
+ .container-img-presentation {
+     width: auto;
+     height: 30vh;
+ }
+
+ .box-img-presentation {
+     width: auto;
+     height: 100%;
+ }
 
  .lista-redes {
    
