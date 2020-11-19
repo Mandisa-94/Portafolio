@@ -596,8 +596,8 @@ main {
 }
 
  #name ,#subname {
-    width: 90%;
-    height: 5vh;
+    width: 150px;
+    height: 40px;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -622,8 +622,8 @@ main {
 }
 
 #mail {
-    width: 95%;
-    height: 5vh;
+    width: 345px;
+    height: 40px;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -648,8 +648,8 @@ main {
 }
 
 #textarea {
-    width: 95%;
-    height: 15vh;
+    width: 345px;
+    height: 150px;
     border-radius: 10px;
     padding: 5px 10px;
     outline: none;

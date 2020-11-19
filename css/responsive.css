@@ -129,7 +129,7 @@
     }
 
     .texto-conocimientos-skills {
-        width: auto;
+        width: 70%;
         height: auto;
 
     }
@@ -238,13 +238,14 @@
      width: 100vw;
      height: auto;
      margin-bottom: 2%;
+    
  }
 
  .box-contacto {
      width: 90vw;
      height: auto;
      flex-direction: column;
-     margin: 4% 0 4%;
+     margin: 4% 0;
  }
 
 .contactame-redes {
@@ -252,6 +253,7 @@
     height: auto;
     margin-bottom: 5%;
     margin-top: 5%;
+   
 }
 
 .texto-redes {
@@ -292,14 +294,51 @@
     height: 6vh;
 }
 
+.container-formulario {
+    height: auto;
+}
+
 .escribime {
     width: 85vw;
     height: auto;
     margin-bottom: 5%;
+   
 }
 
 .titulo-escribime {
     font-size: 2.7rem;
+}
+.box-nombre-apellido {
+    height: auto;
+    
+}
+
+.box-nombre , .box-apellido {
+     margin: 5% 0;
+}
+
+#name ,#subname {
+    width: 120px;
+    margin: 5% 0;
+}
+
+.box-email {
+    height: auto;
+   
+} 
+
+#mail {
+    width: 300px;
+    margin: 5% 0;
+}
+
+.box-mensaje {
+height: auto;
+}
+
+#textarea {
+    width: 300px;
+    margin: 5% 0;
 }
 
 /*FOOTER*/
@@ -456,6 +495,19 @@ main {
      font-size: 1.5rem;
     height: 5vh;
  }
+
+ #name ,#subname {
+    width: 180px;
+}
+
+#mail {
+    width: 380px;
+}
+
+#textarea {
+    width: 380px;
+    
+}
 
  /*FOOTER*/
 .lista-texto ul a li {
@@ -649,6 +701,19 @@ height: 50%;
     font-size: 1rem;
 }
 
+#name ,#subname {
+    width: 115px;
+}
+
+#mail {
+    width: 240px;
+}
+
+#textarea {
+    width: 240px;
+    
+}
+
 /*FOOTER*/
 
 .lista-texto ul a {
@@ -758,6 +823,20 @@ header {
 .contactame-icono {
     font-size: 1rem;
 }
+
+#name ,#subname {
+    width: 100px;
+}
+
+#mail {
+    width: 250px;
+}
+
+#textarea {
+    width: 250px;
+    
+}
+
 
 
     /*FOOTER*/
