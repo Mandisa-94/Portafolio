@@ -315,10 +315,12 @@
 
 .box-nombre , .box-apellido {
      margin: 5% 0;
+     height: auto;
 }
 
 #name ,#subname {
     width: 120px;
+    height: 40px;
     margin: 5% 0;
 }
 
@@ -498,6 +500,7 @@ main {
 
  #name ,#subname {
     width: 180px;
+    height: 40px;
 }
 
 #mail {
@@ -703,6 +706,7 @@ height: 50%;
 
 #name ,#subname {
     width: 115px;
+    height: 40px;
 }
 
 #mail {
@@ -826,6 +830,7 @@ header {
 
 #name ,#subname {
     width: 100px;
+    height: 40px;
 }
 
 #mail {
