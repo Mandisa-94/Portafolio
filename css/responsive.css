@@ -15,40 +15,39 @@
         box-shadow: none;
         /*padding-left: 2%:*/
         position: static;
-       
     }
 
     .casita-baby-menu {
      display: flex;
     }
 
-    .menu {
+    .container-menu {
     
       display: none;
       align-items: flex-start;
-        width: auto;
-        height: auto;
-        background-color: transparent;
+      width: auto;
+      height: auto;
+      background-color: transparent;
       
     }
 
-    .menu ul {
+    .box-menu {
         flex-direction: column;
         align-items: flex-start;
         /*padding: 3%;*/
         
     }
 
-    .menu ul li {
+    .boton-menu , .contacto-menu {
         margin: 5%;
     }
 
-    #baby-menu:checked ~ .menu {
+    #baby-menu:checked ~ .container-menu{
        display: block;
        
     }
 
-    .boton {
+    .boton-menu , .contacto-menu {
         background-color: var(--Csecundario);
         border-radius: 20px;
     }
@@ -140,14 +139,14 @@
         
     }
 
-    .box-botones-skills div {
+    .box-icono-skills {
         width: 130px;
         height: 160px;
     }
 
     /*SOMEONE*/
 
-    .someone {
+    .container-someone {
         width: 100vw;
         height: auto;
         margin: 3% 0;
@@ -160,14 +159,14 @@
         padding: 4%;
     }
 
-    .box-someone p {
+    .cita-someone {
         width: 80%;
         height: auto;
         font-size: 1rem;
         margin: 2% 0;
     }
 
-    .box-someone h2 {
+    .autor-someone {
         width: auto;
         height: auto;
         font-size: 1.3rem;
@@ -176,7 +175,7 @@
 
     /*MIS PROYECTOS*/
 
-    .mis-proyectos {
+    .container-mis-proyectos {
         width: auto;
         height: auto;
         margin-bottom: 2%;
@@ -196,18 +195,18 @@
         width: auto;
         height: auto;
     }
-    .texto-proyectos h1 {
+    .titulo-proyectos {
         font-size: 2.7rem;
        margin-bottom: 2%;
     }
 
-    .texto-proyectos p {
+    .descripcion-proyectos {
         width: 80%;
         height: auto;
         
     }
 
-    .box-img {
+    .box-img-proyectos {
         width: 100vw;
         height: auto;
         /*flex-direction: column;*/
@@ -215,18 +214,18 @@
         margin-top: 10%;
     }
 
-    .box-img a div {
+    .box-img-nombre-proyectos {
         width: 200px;
         height: 200px;
         margin-bottom: 4%;
     }
 
-    .imagen {
+    .imagen-proyectos {
         width: 90%;
         height: auto;
     }
 
- .png {
+    .png-proyectos {
     width: 100%;
      height: 130px;
  }
@@ -234,14 +233,14 @@
 
  /*CONTACTAME*/
 
- .contactame {
+ .container-contactame {
      width: 100vw;
      height: auto;
      margin-bottom: 2%;
     
  }
 
- .box-contacto {
+ .box-contactame {
      width: 90vw;
      height: auto;
      flex-direction: column;
@@ -272,15 +271,11 @@
 }
 .lista-redes {
     height: auto;
-    
-
 }
 
-.link-contactame {
-    
-    width: 80%;
+.lista-contactame {
+     width: 80%;
     height: 10vh;
-  
 }
 
 .contactame-link {
@@ -294,11 +289,11 @@
     height: 6vh;
 }
 
-.container-formulario {
+.escribime-formulario {
     height: auto;
 }
 
-.escribime {
+.box-escribime {
     width: 85vw;
     height: auto;
     margin-bottom: 5%;
@@ -349,20 +344,20 @@ footer {
     width: 100vw;
 }
 
-.box-iconos {
+.container-iconos-footer {
     width: 100%;
 }
 
-.lista-texto{
+.box-lista-link-footer{
     width: 90vw;
 }
 
-.lista-texto ul a {
+.link-footer{
 font-size: 0.7rem;
   
 }
 
-.lista-iconos ul a li i {
+.icono-footer {
  font-size: 1.2rem;
     
 }
@@ -414,11 +409,11 @@ main {
 
     }
 
-    .texto-proyectos h1 {
+    .titulo-proyectos {
          margin-bottom: 2%;
     }
 
-     .box-img {
+     .box-img-proyectos {
         width: 80vw;
        margin-top: 4%;
      }
@@ -434,7 +429,7 @@ main {
     }
 
 
-    .link-contactame {
+    .lista-contactame{
    width: 80vw;
    height: 10vh;
    }
@@ -447,11 +442,11 @@ main {
 
 /*FOOTER*/
 
-.lista-texto ul a {
+.link-footer {
     font-size: 1rem;
 }
 
-.lista-iconos ul a li i {
+.icono-footer {
  font-size: 1.7rem;
     
 }
@@ -480,7 +475,7 @@ main {
    }
 
 
-   .link-contactame {
+   .lista-contactame {
     width: 80vw;
     height: 10vh;
    
@@ -513,11 +508,11 @@ main {
 }
 
  /*FOOTER*/
-.lista-texto ul a li {
+.nombre-secciones-link-footer {
     font-size: 1rem;
 }
 
-.lista-iconos ul a li i {
+.icono-footer {
     /*background-color: greenyellow;*/
     width: 150%;
     height: 8vh;
@@ -535,14 +530,14 @@ header {
     padding: 0 20%;
 }
 
-.menu {
+.container-menu {
     width: auto;
     height: auto;
     
 
 }
 
-.menu ul li{
+.boton-menu , .contacto-menu{
     padding: 2.5%;
 }
 
@@ -596,17 +591,17 @@ header {
 
     /*CONTACTAME*/
 
-    .box-contacto {
+    .box-contactame {
         width: 90vw;
     }
 
     /*FOOTER*/
 
-    .lista-texto ul a {
+    .link-footer {
         font-size: 1.5rem;
     }
     
-    .lista-iconos ul a li i {
+    .icono-footer {
      font-size: 3rem;
         
     }
@@ -641,7 +636,7 @@ header {
 
     /*FOOTER*/
 
-    .lista-texto ul a {
+    .link-footer {
         font-size: 1rem;
     }
 
@@ -685,7 +680,7 @@ height: 50%;
 
 /*CONTACTAME*/
 
-.box-contacto {
+.box-contactame {
     width: 95vw;
 }
 
@@ -720,11 +715,11 @@ height: 50%;
 
 /*FOOTER*/
 
-.lista-texto ul a {
+.link-footer {
     font-size: 0.6rem;
 }
 
-.lista-iconos ul a li i {
+.icono-footer {
     font-size: 1.5rem;
     }
 
@@ -786,11 +781,11 @@ height: 50%;
 
     /*FOOTER*/
 
-    .lista-texto ul a {
+    .link-footer {
         font-size: 0.6rem;
     }
     
-    .lista-iconos ul a li i {
+    .icono-footer {
         font-size: 1.5rem;
         }
 }
@@ -802,7 +797,8 @@ header {
     margin: 0;
 }
 
- /*CONTACTAME*/
+ /*PRESENTACION*/
+
  .container-img-presentation {
      width: auto;
      height: 30vh;
@@ -812,6 +808,9 @@ header {
      width: auto;
      height: 100%;
  }
+
+
+/*CONTACTAME*/
 
  .lista-redes {
    
@@ -846,11 +845,11 @@ header {
 
     /*FOOTER*/
     
-    .lista-texto ul a {
+    .link-footer {
         font-size: 0.6rem;
     }
     
-    .lista-iconos ul a li i {
+    .icono-footer {
         font-size: 1rem;
         }
 }

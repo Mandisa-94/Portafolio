@@ -34,7 +34,7 @@ header {
     align-items: center;
     padding: 0 15%;
     box-shadow: 0px 1px 5px 2px rgb(233, 233, 233);
-   position: fixed;
+    position: fixed;
 }
 
 #baby-menu {
@@ -61,14 +61,14 @@ header {
 
 }
 
-.menu {
+.container-menu {
     /*background-color: chocolate;*/
     width: 42%;
     height: auto;
     display: flex;
 }
 
-.menu ul {
+.box-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,7 +79,7 @@ header {
     /*background-color: khaki;*/
 }
 
-.menu ul li a {
+.link-menu {
     display: flex;
     text-decoration: none;
     color: var(--Cparrafos);
@@ -88,17 +88,17 @@ header {
     /*background-color: lightcoral;*/
 }  
 
-.contacto {
+.contacto-menu {
     background-color: var(--Csecundario);
     border-radius: 20px;
 }
 
-.contacto:hover{
-    background-color: var(--Chover);
+.link-menu-titulos:hover{
+    color: var(--Chover);
     
 }
 
-.boton-hago:hover {
+.contacto-menu:hover {
     background-color: var(--Chover);
 }
 /*Fin menu*/
@@ -176,6 +176,10 @@ main {
    
 }
 
+.boton-hago:hover {
+    background-color: var(--Chover);
+}
+
 .presentation .boton-hago:hover{
     background-color: var(--Chover);
     color: var(--ChoverP);
@@ -249,7 +253,7 @@ main {
     
 }
 
-.box-botones-skills div {
+.box-icono-skills {
     /*background-color: var(--Cprincipal);*/
     background-color: var(--Csecundario);
     width: 230px;
@@ -261,22 +265,22 @@ main {
     justify-content: space-evenly;
     border-radius: 7px;
 }
-.box-botones-skills div:hover {
+.box-icono-skills:hover {
     border: solid 2px var(--ChoverP);
 }
 
-.box-botones-skills div i {
+.icono-skills {
     font-size: 4.6875rem;
 }
 
-.box-botones-skills div p {
+.nombre-icono-skills {
     font-size: 1.25rem;
     color: var(--Cparrafos);
 }
 
 /*Fin SKILLS*/
 
-.someone {
+.container-someone {
     width: 100%;
     height: 51.60vh;
     background-color: var(--Csecundario);
@@ -296,14 +300,14 @@ main {
     align-items: center;
 }
 
-.box-someone i {
+.icono-someone {
     font-size: 4.6875rem;
     color: var(--Cprincipal);
    /* background-color: tomato;*/
    text-shadow:-1px -1px 0 lightslategray;
 }
 
-.box-someone p {
+.cita-someone {
     width: 50%;
     height: auto;
     font-size: 2rem;
@@ -311,7 +315,7 @@ main {
     /*background-color: teal;*/
 }
 
-.box-someone h2 {
+.autor-someone {
     font-size: 1.875rem;
     color: white;
     /*background-color: tomato;*/
@@ -320,7 +324,7 @@ main {
 
 /*Fin SOMEONE*/
 
-.mis-proyectos {
+.container-mis-proyectos {
     width: 100%;
     height: 195vh;
     /*background-color: violet;*/
@@ -351,18 +355,18 @@ main {
     align-items: center;
 }
 
-.texto-proyectos h1 {
+.titulo-proyectos {
     color: black;
     font-size: 3.75rem;
     /*background-color: teal;*/
 }
-.texto-proyectos p {
+.descripcion-proyectos {
     font-size: 1.25rem;
     color: var(--Cparrafos2);
     width: 20%;
     /*background-color: tomato;*/
 }
-.box-img {
+.box-img-proyectos {
     width: 100%;
     height: 140vh;
     display: flex;
@@ -371,7 +375,7 @@ main {
     align-items: center;
     /*background-color: saddlebrown;*/
 }
-.box-img a div {
+.box-img-nombre-proyectos {
     width: 380px;
     height: 380px;
     background-color: white;
@@ -384,7 +388,7 @@ main {
     border: 1px solid var(--Cprincipal);
 }
 
-.imagen {
+.imagen-proyectos {
     width: 70%;
     height: 32vh;
     /*background-color: tomato;*/
@@ -396,26 +400,26 @@ main {
 }
 
 
-.box-img a {
+.link-proyectos {
     text-decoration: none;
     list-style: none;
     font-size: 1.25rem;
     color: var(--Cparrafos);
  }
 
-.png {
+.png-proyectos {
     width: auto;
     height: 230px;
 }
 
-.box-img a div:hover {
+.box-img-nombre-proyectos:hover {
     border: solid 1px var(--Chover);
     /*box-shadow: 0 0 5px 0 var(--ChoverP);*/
 }
 
 /*Fin MIS PROYECTOS*/
 
-.contactame {
+.container-contactame {
     width: 100%;
     height: 110vh;
     background-color: white;
@@ -424,7 +428,7 @@ main {
     align-items: center;
     border-top: solid 1px var(--Csecundario);
 }
-.box-contacto {
+.box-contactame {
     width: 70%;
     height: 70vh;
     display: flex;
@@ -485,7 +489,7 @@ main {
     
 }
 
-.link-contactame {
+.lista-contactame {
     width: 65%;
     height: auto;
     /*background-color: mediumorchid;*/
@@ -525,15 +529,15 @@ main {
 }
 
 
-.link-contactame:hover .contactame-icono{
+.lista-contactame:hover .contactame-icono{
     background-color: var(--Csecundario);
     color: var(--Cprincipal);
 }
- .link-contactame:hover  .contactame-link{
+ .lista-contactame:hover  .contactame-link{
      color: var(--Csecundario);
  }
 
-.escribime {
+.box-escribime {
     width: 40%;
     height: 60vh;
     /*background-color: rgb(222, 248, 179);*/
@@ -548,7 +552,7 @@ main {
     /*background-color: lightskyblue;*/
 }
 
-.container-formulario {
+.escribime-formulario {
     width: 100%;
     height: 55vh;
     /*background-color: maroon;*/
@@ -587,7 +591,7 @@ main {
     
 }
 
-.box-nombre-apellido label {
+.label-nombre , .label-apellido {
     width: auto;
     height: auto;
     /*background-color: lightblue;*/
@@ -615,7 +619,7 @@ main {
     justify-content: space-evenly;
 }
 
-.box-email label {
+.label-email {
     font-size: 1.5625rem;
     /*background-color: lightskyblue;*/
     display: flex;
@@ -641,7 +645,7 @@ main {
     
 }
 
-.box-mensaje label {
+.label-mensaje {
     font-size: 1.5625rem;
     /*background-color: lightskyblue;*/
     display: flex;
@@ -704,7 +708,7 @@ main {
      justify-content: center;
  }
 
- .box-iconos {
+ .container-iconos-footer {
      width: 70%;
      height: 20vh;
      /*background-color: cyan;*/
@@ -714,7 +718,7 @@ main {
      justify-content: space-around;
  }
 
- .lista-texto {
+ .box-lista-link-footer {
      width: 38%;
      height: auto;
      /*background-color: darkgoldenrod;*/
@@ -723,25 +727,25 @@ main {
      align-items: center;
 
  }
- .lista-texto ul {
+ .lista-link-footer {
      display: flex;
      justify-content: center;
      align-items: center;
  }
 
 
-.lista-texto ul a  {
+.link-footer {
      text-decoration: none;
      list-style: none;
      color: var(--Cprincipal);
     padding: 2%;
  }
 
- .lista-texto ul a  li:hover{
+ .nombre-secciones-link-footer:hover{
      color: var(--ChoverP);
  }
 
- .lista-iconos{
+ .box-lista-iconos{
     width: 38%;
     height: auto;
     /*background-color: rgb(180, 42, 162);*/
@@ -751,21 +755,21 @@ main {
     flex-direction: row;
 }
 
-.lista-iconos ul {
+.lista-iconos-footer {
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 
- .lista-iconos ul a {
+ .link-iconos-footer {
      text-decoration: none;
      list-style: none;
      padding: 10%;
  }
 
 
- .lista-iconos ul a li i {
+ .icono-footer {
      width: 154%;
      height: 4.2vh;
     /*background-color: tomato;*/
@@ -781,7 +785,7 @@ main {
      
  }
 
- .lista-iconos ul a li i:hover {
+ .icono-footer:hover {
 background-color: var(--Cparrafos);
 color: var(--Csecundario);
 
