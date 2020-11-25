@@ -517,8 +517,8 @@ main {
 
 .contactame-icono {
   
-    width: 15%;
-    height: 4vh;
+    width: 50px;
+    height: 40px;
     border: solid 1px var(--Csecundario);
     border-radius: 50%;
     font-size: 1.5625rem;

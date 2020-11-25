@@ -1,11 +1,11 @@
 # Portafolio de Ada
 
-### Poner aca el estilo que elegi para mi proyecto
+### Para la visual de mi portafolio use como base el diseño que nos propuso ADA y le di una vuelta personal usando una paleta de colores de [coolors](https://coolors.co/palettes/trending) y las ilustraciones de [unDraw](https://undraw.co/illustrations). Priorise la elegancia del modelo que nos brindo ADA por lo que logre una page limpia, rapida y sencilla para facilitar la navegacion y experiencia del usuario. Considero que el éxito de un diseño web depende en gran medida de la aceptación entre los usuarios por lo que espero les guste mucho.
 
 ***
 <br>
 
-### Para poder ver mi trabajo hace click en el siguiente [enlace](mandisa-94.github.io/portafolio/.) o tambien podes verlo por [aqui]()
+### Para poder ver mi trabajo hace click en el siguiente [enlace](mandisa-94.github.io/portafolio/.) o tambien podes verlo por [aqui](https://portafolio-gabriela-duran.netlify.app/)
 
 ***
 <br>
@@ -38,8 +38,8 @@ git clone <url>
 ***
 <br>
 
-### Este proyecto fue desarrollado para Ada con el fin de tener un trabajo para mostrarme al mercado laboral. Agradezco a Jonh por sus excelentes clases e iniciarme en el mundo de la programacion.
+### Este proyecto fue desarrollado para [ADA](https://www.linkedin.com/school/ada-itw/) con el fin de tener en un portafolio con los trabajos que realice a lo largo de mi cursada para mostrarme al mercado laboral. Agradezco a [Jonh Parra](https://www.linkedin.com/in/jonathanparrazavala/) por sus excelentes clases e iniciarme en el mundo de la programacion.
 
-#### De Gabi con 💛
+#### [Gabriela Duran](https://www.linkedin.com/in/gabriela-duran94/)🎀
 
 
