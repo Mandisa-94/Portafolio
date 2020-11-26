@@ -13,7 +13,6 @@
         padding: 0;
         background-color: transparent;
         box-shadow: none;
-        /*padding-left: 2%:*/
         position: static;
     }
 
@@ -22,20 +21,16 @@
     }
 
     .container-menu {
-    
       display: none;
       align-items: flex-start;
       width: auto;
       height: auto;
-      background-color: transparent;
-      
+      background-color: transparent;  
     }
 
     .box-menu {
         flex-direction: column;
-        align-items: flex-start;
-        /*padding: 3%;*/
-        
+        align-items: flex-start;    
     }
 
     .boton-menu , .contacto-menu {
@@ -43,8 +38,7 @@
     }
 
     #baby-menu:checked ~ .container-menu{
-       display: block;
-       
+       display: block;   
     }
 
     .boton-menu , .contacto-menu {
@@ -66,14 +60,12 @@
         height: 90vh;
         width: auto;
         flex-direction: column;
-        text-align: center;
-       
+        text-align: center;       
 }
 
     .box-presentation-hola {
         height: 50vh;
         width: auto;   
-       /*margin: 30% 0 3% 0;*/
        align-items: center;
        justify-content: center;
        margin-bottom: 4%;
@@ -110,33 +102,28 @@
     .container-skills {
         width: 100vw;
         height: auto;
-        /*margin-top: 10%;*/
     }
 
     .box-skills {
         width: auto;
         height: auto;
-        margin: 4% 0;
-        
+        margin: 4% 0;  
     }
 
     .titulo-conocimientos-skills {
         font-size: 2.3rem;
         text-align: center;
-        padding: 2% 0;
-      
+        padding: 2% 0;   
     }
 
     .texto-conocimientos-skills {
         width: 70%;
         height: auto;
-
     }
 
     .box-botones-skills {
         width: 100%;
-        height: auto;
-        
+        height: auto;    
     }
 
     .box-icono-skills {
@@ -149,8 +136,7 @@
     .container-someone {
         width: 100vw;
         height: auto;
-        margin: 3% 0;
-       
+        margin: 3% 0;   
     }
 
     .box-someone {
@@ -179,16 +165,11 @@
         width: auto;
         height: auto;
         margin-bottom: 2%;
-
-
-
     }
     .box-proyectos {
         width: auto;
         height: auto;
-      margin-top: 4%;
-
-        
+      margin-top: 4%;    
     }
 
     .texto-proyectos {
@@ -202,14 +183,12 @@
 
     .descripcion-proyectos {
         width: 80%;
-        height: auto;
-        
+        height: auto;   
     }
 
     .box-img-proyectos {
         width: 100vw;
         height: auto;
-        /*flex-direction: column;*/
         padding: 5%;
         margin-top: 10%;
     }
@@ -226,8 +205,8 @@
     }
 
     .png-proyectos {
-    width: 100%;
-     height: 130px;
+      width: 100%;
+      height: 130px;
  }
 
 
@@ -236,8 +215,7 @@
  .container-contactame {
      width: 100vw;
      height: auto;
-     margin-bottom: 2%;
-    
+     margin-bottom: 2%;   
  }
 
  .box-contactame {
@@ -251,8 +229,7 @@
     width: 85vw;
     height: auto;
     margin-bottom: 5%;
-    margin-top: 5%;
-   
+    margin-top: 5%;  
 }
 
 .texto-redes {
@@ -278,8 +255,7 @@
     height: 10vh;
 }
 
-.contactame-link {
-    
+.contactame-link { 
     width: 100%;
     height: auto;
     font-size: 1rem;
@@ -296,16 +272,14 @@
 .box-escribime {
     width: 85vw;
     height: auto;
-    margin-bottom: 5%;
-   
+    margin-bottom: 5%;  
 }
 
 .titulo-escribime {
     font-size: 2.7rem;
 }
 .box-nombre-apellido {
-    height: auto;
-    
+    height: auto;   
 }
 
 .box-nombre , .box-apellido {
@@ -320,8 +294,7 @@
 }
 
 .box-email {
-    height: auto;
-   
+    height: auto;  
 } 
 
 #mail {
@@ -361,15 +334,21 @@ font-size: 0.7rem;
  font-size: 1.2rem;
     
 }
+
+.link-iconos-footer {
+    padding: 5%;
 }
+}
+
+
+
 
 @media (min-width: 900px) and (max-width: 1024px){
 
 /* PRESENTATION*/ 
   
    .box-presentation-hola {
-     margin: 10% 0 3% 0;
-      
+     margin: 10% 0 3% 0; 
     }
 
    .container-img-presentation {
@@ -393,28 +372,25 @@ main {
     .texto-conocimientos-skills {
         width: 70%;
         height: auto;
-
     }
 
     .box-botones-skills {
         width: 70%;
-        height: auto;
-        
+        height: auto;   
     }
 
     /*MIS PROYECTOS*/
 
     .box-proyectos {
        margin-top: 4%;
-
     }
 
     .titulo-proyectos {
-         margin-bottom: 2%;
+      margin-bottom: 2%;
     }
 
      .box-img-proyectos {
-        width: 80vw;
+       width: 80vw;
        margin-top: 4%;
      }
 
@@ -425,18 +401,17 @@ main {
     }
 
     .texto-redes {
-    width: 80%;
+      width: 80%;
     }
 
-
     .lista-contactame{
-   width: 80vw;
-   height: 10vh;
+     width: 80vw;
+     height: 10vh;
    }
 
    .contactame-link {
-   width: 50%;
-   justify-content: flex-start;
+      width: 50%;
+      justify-content: flex-start;
   }
 
 
@@ -454,14 +429,14 @@ main {
 
 
 
+
 @media (min-width: 700px) and (max-width: 900px){
 
 
-    /* PRESENTATION*/ 
+/* PRESENTATION*/ 
     .box-presentation-hola {
      margin: 10%;
    }
-
 
 
  /*CONTACTAME*/
@@ -484,8 +459,6 @@ main {
   .contactame-link {
   width: 50%;
   justify-content: flex-start;
-  
-
  }
 
  .contactame-icono {
@@ -503,8 +476,7 @@ main {
 }
 
 #textarea {
-    width: 380px;
-    
+    width: 380px;   
 }
 
  /*FOOTER*/
@@ -512,14 +484,9 @@ main {
     font-size: 1rem;
 }
 
-.icono-footer {
-    /*background-color: greenyellow;*/
-    width: 150%;
-    height: 8vh;
-
-} 
-
 }
+
+
 
 
 @media (width:1024px){
@@ -533,8 +500,6 @@ header {
 .container-menu {
     width: auto;
     height: auto;
-    
-
 }
 
 .boton-menu , .contacto-menu{
@@ -542,10 +507,9 @@ header {
 }
 
 
-
 /* PRESENTATION*/ 
 
-.container-presentation {
+   .container-presentation {
     width: 100vw;
     height: 100vh;
 }
@@ -600,12 +564,11 @@ header {
     .link-footer {
         font-size: 1.5rem;
     }
-    
-    .icono-footer {
-     font-size: 3rem;
-        
-    }
+
 }
+
+
+
 
 @media (width:540px){
 
@@ -625,26 +588,29 @@ header {
 
     /*SKILLS*/
 
-.box-skills {
-    width: 100vw;
+    .box-skills {
+        width: 100vw;
 }
 
-.texto-conocimientos-skills {
-    width: 50%;
-    font-size: 1rem;
+     .texto-conocimientos-skills {
+         width: 50%;
+         font-size: 1rem;
 }
 
     /*FOOTER*/
 
     .link-footer {
         font-size: 1rem;
-    }
+}
 
     .lista-iconos ul a li i {
         font-size: 1.5rem;
-        }
-
+ }
 }
+
+
+
+
 
 @media (width:280px){
 
@@ -657,17 +623,15 @@ header {
 
 .box-presentation {
     width: auto;
-    height: 100vh;
-   
+    height: 100vh;  
 }
 
 .box-presentation-hola {
-width: auto;
-height: 50%;
+     width: auto;
+     height: 50%;
 }
 
 .container-img-presentation {
-
     width: auto;
     height: 50%;
 }
@@ -675,7 +639,6 @@ height: 50%;
 .box-img-presentation {
     width: 100%;
     height: auto;
-
 }
 
 /*CONTACTAME*/
@@ -689,7 +652,10 @@ height: 50%;
 }
 
 .lista-redes {
-   
+    width: 100%;
+}
+
+.lista-contactame {
     width: 100%;
 }
 
@@ -709,8 +675,7 @@ height: 50%;
 }
 
 #textarea {
-    width: 240px;
-    
+    width: 240px;    
 }
 
 /*FOOTER*/
@@ -719,23 +684,25 @@ height: 50%;
     font-size: 0.6rem;
 }
 
-.icono-footer {
-    font-size: 1.5rem;
-    }
+.box-lista-iconos {
+    width: 100%;
+}
+
+.link-iconos-footer {
+    padding: 2%;
+}
 
 }
+
 
 
 @media (min-width:360px) and (max-width:500px){
 
     header {
         margin: 0 5%;
-      
     }
 
-
-
-    /*PRESENTACION*/
+ /*PRESENTACION*/
 
  
     .box-presentation {
@@ -768,10 +735,8 @@ height: 50%;
     /*CONTACTAME*/
 
     .lista-redes {
-   
         width: 100%;
     }
-    
     
     .contactame-link {
         width: 100%;
@@ -787,8 +752,10 @@ height: 50%;
     
     .icono-footer {
         font-size: 1.5rem;
-        }
+     }
 }
+
+
 
 
 @media (width:320px){
@@ -813,10 +780,12 @@ header {
 /*CONTACTAME*/
 
  .lista-redes {
-   
-    width: 100%;
+   width: 100%;
 }
 
+.lista-contactame {
+    width: 90%;
+}
 
 .contactame-link {
     width: 100%;
@@ -824,7 +793,7 @@ header {
 }
 
 .contactame-icono {
-    font-size: 1rem;
+    /*font-size: 1.5rem;*/
 }
 
 #name ,#subname {
@@ -838,45 +807,37 @@ header {
 
 #textarea {
     width: 250px;
+}
+
+/*FOOTER*/
     
+ .link-footer {
+     font-size: 0.6rem;
+}
+    
+.icono-footer {
+     font-size: 1rem;
+}
 }
 
 
 
-    /*FOOTER*/
-    
-    .link-footer {
-        font-size: 0.6rem;
-    }
-    
-    .icono-footer {
-        font-size: 1rem;
-        }
-}
 
 @media (width:375px){
+
  /*CONTACTAME*/
 
  .lista-redes {
-   
     width: 100%;
-    
 }
 
+.lista-contactame {
+    width: 90%;
+}
 
 .contactame-link {
-    
     width: 100%;
     height: auto;
     font-size: 1rem;
-  
-    
 }
-
-.contactame-icono {
-    
-    width: auto;
-    height: 5vh;
-}
-
 }
