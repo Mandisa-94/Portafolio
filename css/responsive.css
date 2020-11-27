@@ -53,6 +53,7 @@
 .container-presentation {
     width: 100vw;
     height: auto;
+    margin-top: 10%;
     align-items: flex-start;
 }
 
@@ -102,6 +103,7 @@
     .container-skills {
         width: 100vw;
         height: auto;
+        margin-top: 15%;
     }
 
     .box-skills {
@@ -189,14 +191,14 @@
     .box-img-proyectos {
         width: 100vw;
         height: auto;
-        padding: 5%;
-        margin-top: 10%;
+        padding: 15%;
+        margin-top: 2%;
     }
 
     .box-img-nombre-proyectos {
         width: 200px;
         height: 200px;
-        margin-bottom: 4%;
+        margin-bottom: 10%;
     }
 
     .imagen-proyectos {
@@ -252,17 +254,13 @@
 
 .lista-contactame {
      width: 80%;
-    height: 10vh;
+    height: 19vh;
 }
 
 .contactame-link { 
     width: 100%;
     height: auto;
     font-size: 1rem;
-}
-
-.contactame-icono {
-    height: 6vh;
 }
 
 .escribime-formulario {
@@ -311,10 +309,15 @@ height: auto;
     margin: 5% 0;
 }
 
+.enviar {
+    padding: 5%;
+}
+
 /*FOOTER*/
 
 footer {
     width: 100vw;
+    height: 42vh;
 }
 
 .container-iconos-footer {
@@ -337,6 +340,11 @@ font-size: 0.7rem;
 
 .link-iconos-footer {
     padding: 5%;
+}
+
+
+.icono-footer {
+  padding-top: 25%;
 }
 }
 
@@ -369,13 +377,17 @@ main {
 
     /*SKILLS*/
 
+    .container-skills {
+        height: 100vh;
+    }
+
     .texto-conocimientos-skills {
         width: 70%;
         height: auto;
     }
 
     .box-botones-skills {
-        width: 70%;
+        width: 100%;
         height: auto;   
     }
 
@@ -438,6 +450,12 @@ main {
      margin: 10%;
    }
 
+   /*SKILLS*/
+
+   .container-skills {
+       margin-top: 15%;
+   }
+
 
  /*CONTACTAME*/
 
@@ -452,18 +470,13 @@ main {
 
    .lista-contactame {
     width: 80vw;
-    height: 10vh;
+    height: 15vh;
    
   }
 
   .contactame-link {
-  width: 50%;
-  justify-content: flex-start;
- }
-
- .contactame-icono {
-     font-size: 1.5rem;
-    height: 5vh;
+   width: 50%;
+  
  }
 
  #name ,#subname {
@@ -478,6 +491,7 @@ main {
 #textarea {
     width: 380px;   
 }
+
 
  /*FOOTER*/
 .nombre-secciones-link-footer {
@@ -558,13 +572,33 @@ header {
     .box-contactame {
         width: 90vw;
     }
+/* MIS PROYECTOS*/
+
+.container-mis-proyectos {
+    height: 130vh;
+}
+
+  .box-img-proyectos {
+      width: 80VW;
+      height: 80vh;
+  }
+
+  .box-img-nombre-proyectos {
+      width: 250PX;
+      height: 250PX;
+  }
+  .png-proyectos {
+      height: 150px;
+  }
 
     /*FOOTER*/
 
     .link-footer {
         font-size: 1.5rem;
     }
-
+    .icono-footer {
+        padding-top: 20%;
+      }
 }
 
 
@@ -587,6 +621,10 @@ header {
 
 
     /*SKILLS*/
+
+    /*.container-skills {
+        margin-top: 15%;
+    }*/
 
     .box-skills {
         width: 100vw;
@@ -704,24 +742,19 @@ header {
 
  /*PRESENTACION*/
 
- 
     .box-presentation {
         width: auto;
-        height: 100vh;
-       
+        height: 85vh;
     }
 
     .box-presentation-hola{
         width: 95vw;
-        height: 50vh;
-      
+        height: 50vh; 
     }
     .linea-soy{
         font-size: 2rem;
     }
 
-
- 
     .container-img-presentation {
         width: auto;
         height: 50%;
@@ -730,6 +763,11 @@ header {
     .box-img-presentation {
         height: 70%;
     }
+
+    /*SKILLS*/
+    /*.container-skills {
+        margin-top: 15%;
+    }*/
 
 
     /*CONTACTAME*/
