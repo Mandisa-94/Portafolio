@@ -1,0 +1,878 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media (min-width: 280px) and (max-width: 900px){
+
+    header {
+        align-items: flex-start;
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+        position: static;
+    }
+
+    .casita-baby-menu {
+     display: flex;
+    }
+
+    .container-menu {
+      display: none;
+      align-items: flex-start;
+      width: auto;
+      height: auto;
+      background-color: transparent;  
+    }
+
+    .box-menu {
+        flex-direction: column;
+        align-items: flex-start;    
+    }
+
+    .boton-menu , .contacto-menu {
+        margin: 5%;
+    }
+
+    #baby-menu:checked ~ .container-menu{
+       display: block;   
+    }
+
+    .boton-menu , .contacto-menu {
+        background-color: var(--Csecundario);
+        border-radius: 20px;
+    }
+
+
+   
+/* PRESENTATION*/ 
+
+.container-presentation {
+    width: 100vw;
+    height: auto;
+    margin-top: 10%;
+    align-items: flex-start;
+}
+
+    .box-presentation{
+        height: 90vh;
+        width: auto;
+        flex-direction: column;
+        text-align: center;       
+}
+
+    .box-presentation-hola {
+        height: 50vh;
+        width: auto;   
+       align-items: center;
+       justify-content: center;
+       margin-bottom: 4%;  
+    }
+
+    .linea-soy{
+        font-size: 1rem;
+    }
+
+    .linea-name {
+        font-size: 2.7rem;
+    }
+
+    .boton-hago {
+        width: auto;
+        height: auto;
+        margin-top: 2%;
+        padding: 4%;
+        text-align: center;
+    }
+
+
+    main {
+     width: 100vw;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+    }
+
+
+    /*SKILLS*/
+
+    .container-skills {
+        width: 100vw;
+        height: auto;
+        margin-top: 15%;
+    }
+
+    .box-skills {
+        width: auto;
+        height: auto;
+        margin: 4% 0;  
+    }
+
+    .titulo-conocimientos-skills {
+        font-size: 2.3rem;
+        text-align: center;
+        padding: 2% 0;   
+    }
+
+    .texto-conocimientos-skills {
+        width: 70%;
+        height: auto;
+    }
+
+    .box-botones-skills {
+        width: 100%;
+        height: auto;    
+    }
+
+    .box-icono-skills {
+        width: 130px;
+        height: 160px;
+    }
+
+    /*SOMEONE*/
+
+    .container-someone {
+        width: 100vw;
+        height: auto;
+        margin: 3% 0;   
+    }
+
+    .box-someone {
+        width: auto;
+        height: auto; 
+        padding: 4%;
+    }
+
+    .cita-someone {
+        width: 80%;
+        height: auto;
+        font-size: 1rem;
+        margin: 2% 0;
+    }
+
+    .autor-someone {
+        width: auto;
+        height: auto;
+        font-size: 1.3rem;
+    }
+
+
+    /*MIS PROYECTOS*/
+
+    .container-mis-proyectos {
+        width: auto;
+        height: auto;
+        margin-bottom: 2%;
+    }
+    .box-proyectos {
+        width: auto;
+        height: auto;
+      margin-top: 4%;    
+    }
+
+    .texto-proyectos {
+        width: auto;
+        height: auto;
+    }
+    .titulo-proyectos {
+        font-size: 2.7rem;
+       margin-bottom: 2%;
+    }
+
+    .descripcion-proyectos {
+        width: 80%;
+        height: auto;   
+    }
+
+    .box-img-proyectos {
+        width: 100vw;
+        height: auto;
+        padding: 15%;
+        margin-top: 2%;
+    }
+
+    .box-img-nombre-proyectos {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10%;
+    }
+
+    .imagen-proyectos {
+        width: 90%;
+        height: auto;
+    }
+
+    .png-proyectos {
+      width: 100%;
+      height: 130px;
+ }
+
+
+ /*CONTACTAME*/
+
+ .container-contactame {
+     width: 100vw;
+     height: auto;
+     margin-bottom: 2%;   
+ }
+
+ .box-contactame {
+     width: 90vw;
+     height: auto;
+     flex-direction: column;
+     margin: 4% 0;
+ }
+
+.contactame-redes {
+    width: 85vw;
+    height: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;  
+}
+
+.texto-redes {
+    height: auto;
+    margin-bottom: 10%;
+  
+}
+
+.titulo-redes {
+    font-size: 2.7rem;
+    margin-bottom: 2%;
+}
+
+.p-redes {
+    font-size: 1rem;
+}
+.lista-redes {
+    height: auto;
+}
+
+.contactame-icono {
+padding-top: 10px;
+}
+
+.escribime-formulario {
+    height: auto;
+}
+
+.box-escribime {
+    width: 85vw;
+    height: auto;
+    margin-bottom: 5%;  
+}
+
+.titulo-escribime {
+    font-size: 2.7rem;
+}
+.box-nombre-apellido {
+    height: auto;   
+}
+
+.box-nombre , .box-apellido {
+     margin: 5% 0;
+     height: auto;
+}
+
+#name ,#subname {
+    width: 120px;
+    height: 40px;
+    margin: 5% 0;
+}
+
+.box-email {
+    height: auto;  
+} 
+
+#mail {
+    width: 300px;
+    margin: 5% 0;
+}
+
+.box-mensaje {
+height: auto;
+}
+
+#textarea {
+    width: 300px;
+    margin: 5% 0;
+}
+
+.enviar {
+    padding: 5%;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100vw;
+    height: 42vh;
+}
+
+.container-iconos-footer {
+    width: 100%;
+}
+
+.box-lista-link-footer{
+    width: 90vw;
+}
+
+.link-footer{
+font-size: 0.7rem;
+  
+}
+
+.icono-footer {
+ font-size: 1.2rem;
+    
+}
+
+.link-iconos-footer {
+    padding: 5%;
+}
+
+
+.icono-footer {
+  padding-top: 25%;
+}
+}
+
+
+
+
+@media (min-width: 900px) and (max-width: 1024px){
+
+/* PRESENTATION*/ 
+
+.box-presentation-hola {
+     margin: 10% 0 3% 0; 
+}
+
+.container-img-presentation {
+     height: 50vh;
+     
+}
+
+.box-img-presentation{
+    width: auto;
+    height: 50vh;
+}
+
+main {
+     width: 100vw;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+    }
+
+    /*SKILLS*/
+
+    .container-skills {
+        height: 100vh;
+    }
+
+    .texto-conocimientos-skills {
+        width: 70%;
+        height: auto;
+    }
+
+    .box-botones-skills {
+        width: 100%;
+        height: auto;   
+    }
+
+    /*MIS PROYECTOS*/
+
+    .box-proyectos {
+       margin-top: 4%;
+    }
+
+    .titulo-proyectos {
+      margin-bottom: 2%;
+    }
+
+     .box-img-proyectos {
+       width: 80vw;
+       margin-top: 4%;
+     }
+
+     /*CONTACTAME*/
+
+    .contactame-redes {
+     align-items: center;
+    }
+
+    .texto-redes {
+      width: 80%;
+    }
+
+    .lista-contactame{
+     width: 80vw;
+     height: 10vh;
+   }
+
+   .contactame-link {
+      width: 50%;
+      justify-content: flex-start;
+      margin: 0;
+  }
+
+
+/*FOOTER*/
+
+.link-footer {
+    font-size: 1rem;
+}
+
+.icono-footer {
+ font-size: 1.7rem;
+    
+}
+}
+
+
+
+
+
+
+@media (min-width: 700px) and (max-width: 900px){
+
+
+/* PRESENTATION*/ 
+    .box-presentation-hola {
+     margin: 10%;
+   }
+
+   /*SKILLS*/
+
+   .container-skills {
+       margin-top: 15%;
+   }
+
+
+ /*CONTACTAME*/
+
+ .contactame-redes {
+    align-items: center;
+   }
+
+   .texto-redes {
+   width: 80%;
+   }
+
+
+   .lista-contactame {
+    width: 80vw;
+    height: 10vh;
+}
+
+  .contactame-link {
+   width: 50%;
+ }
+
+ #name ,#subname {
+    width: 180px;
+    height: 40px;
+}
+
+#mail {
+    width: 380px;
+}
+
+#textarea {
+    width: 380px;   
+}
+
+
+ /*FOOTER*/
+.nombre-secciones-link-footer {
+    font-size: 1rem;
+}
+
+}
+
+
+
+
+
+
+
+
+@media (width:1024px){
+
+/*HEADER*/
+
+header {
+    padding: 0 20%;
+}
+
+.container-menu {
+    width: auto;
+    height: auto;
+}
+
+.boton-menu , .contacto-menu{
+    padding: 2.5%;
+}
+
+
+/* PRESENTATION*/ 
+
+   .container-presentation {
+    width: 100vw;
+    height: 100vh;
+}
+
+    .box-presentation{
+        height: auto;
+        width: 100vw;
+ }
+
+    .box-presentation-hola {
+        height: auto;
+        width: 50vw;   
+       align-items: center;
+       justify-content: center;
+    }
+
+    .linea-soy{
+        font-size: 2rem;
+    }
+
+    .linea-name {
+        font-size: 4rem;
+    }
+
+    .boton-hago {
+        width: auto;
+        height: auto;
+        margin-top: 4%;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .container-img-presentation {
+        width: auto;
+        height: 50vh;
+}
+
+    .box-img-presentation{
+        width: auto;
+        height: 80%;
+
+    }
+
+    /*CONTACTAME*/
+
+    .box-contactame {
+        width: 90vw;
+    }
+/* MIS PROYECTOS*/
+
+.container-mis-proyectos {
+    height: 130vh;
+}
+
+  .box-img-proyectos {
+      width: 80VW;
+      height: 80vh;
+  }
+
+  .box-img-nombre-proyectos {
+      width: 250PX;
+      height: 250PX;
+  }
+  .png-proyectos {
+      height: 150px;
+  }
+
+    /*FOOTER*/
+
+    .link-footer {
+        font-size: 1.5rem;
+    }
+    .icono-footer {
+        padding-top: 20%;
+      }
+}
+
+
+
+
+
+
+@media (width:540px){
+
+    /*HEADER*/
+
+    header {
+        padding: 0% 6%;
+    }
+
+    /*CONTACTAME*/
+
+    .contactame-link {
+        justify-content: flex-start;
+        width: 70%;
+    }
+
+
+    /*SKILLS*/
+
+
+    .box-skills {
+        width: 100vw;
+}
+
+     .texto-conocimientos-skills {
+         width: 50%;
+         font-size: 1rem;
+}
+
+    /*FOOTER*/
+
+    .link-footer {
+        font-size: 1rem;
+}
+
+    .lista-iconos ul a li i {
+        font-size: 1.5rem;
+ }
+}
+
+
+
+
+
+
+
+@media (width:280px){
+
+header {
+    padding: 2%;
+}
+
+
+/*PRESENTACION*/
+
+.box-presentation {
+    width: auto;
+    height: 100vh;  
+}
+
+.box-presentation-hola {
+     width: auto;
+     height: 50%;
+}
+
+.container-img-presentation {
+    width: auto;
+    height: 50%;
+}
+
+.box-img-presentation {
+    width: 100%;
+    height: auto;
+}
+
+/*CONTACTAME*/
+
+.box-contactame {
+    width: 95vw;
+}
+
+.titulo-redes {
+    font-size: 2.5rem;
+}
+
+.lista-redes {
+    width: 100%;
+}
+
+.lista-contactame {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+
+.contactame-link {
+    width: 100%;
+    font-size: 1rem;
+}
+
+#name ,#subname {
+    width: 115px;
+    height: 40px;
+}
+
+#mail {
+    width: 240px;
+}
+
+#textarea {
+    width: 240px;    
+}
+
+/*FOOTER*/
+
+.link-footer {
+    font-size: 0.6rem;
+}
+
+.box-lista-iconos {
+    width: 100%;
+}
+
+.link-iconos-footer {
+    padding: 2%;
+}
+
+}
+
+
+
+
+
+
+@media (min-width:360px) and (max-width:500px){
+
+    header {
+        margin: 0 5%;
+    }
+
+ /*PRESENTACION*/
+
+    .box-presentation {
+        width: auto;
+        height: 85vh;
+    }
+
+    .box-presentation-hola{
+        width: 95vw;
+        height: 50vh; 
+    }
+    .linea-soy{
+        font-size: 2rem;
+    }
+
+    .container-img-presentation {
+        width: auto;
+        height: 50%;
+    }
+
+    .box-img-presentation {
+        height: 70%;
+    }
+
+    /*CONTACTAME*/
+
+    .lista-redes {
+        width: 100%;
+    }
+    
+    .contactame-link {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+
+    /*FOOTER*/
+
+    .link-footer {
+        font-size: 0.6rem;
+    }
+    
+    .icono-footer {
+        font-size: 1.5rem;
+     }
+}
+
+
+
+
+
+
+@media (width:320px){
+
+header {
+    margin: 0;
+}
+
+ /*PRESENTACION*/
+
+ .container-img-presentation {
+     width: auto;
+     height: 30vh;
+ }
+
+ .box-img-presentation {
+     width: auto;
+     height: 100%;
+ }
+
+
+/*CONTACTAME*/
+
+ .lista-redes {
+   width: 100%;
+   margin-top: 10%;
+}
+
+.lista-contactame {
+    width: 90%;
+    margin-bottom: 10%;
+}
+
+
+
+
+#name ,#subname {
+    width: 100px;
+    height: 40px;
+}
+
+#mail {
+    width: 250px;
+}
+
+#textarea {
+    width: 250px;
+}
+
+/*FOOTER*/
+    
+ .link-footer {
+     font-size: 0.6rem;
+}
+    
+.icono-footer {
+     font-size: 1rem;
+}
+}
+
+
+
+
+
+
+@media (width:375px){
+
+ /*CONTACTAME*/
+
+ .lista-redes {
+    width: 100%;
+}
+
+.lista-contactame {
+    width: 90%;
+}
+
+.contactame-link {
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+}
+}
