@@ -147,8 +147,10 @@ main {
     color: var(--Cparrafos2);
 }
 .boton-hago {
-    width: 8.854vw;
-    height: 5.611vh;
+    width: 25%;
+    height: auto;
+    padding: 3%;
+    margin: 2% 0 0 0;
     border-radius: 10px;
     border-style: none;
     background-color: var(--Csecundario);
@@ -182,21 +184,24 @@ main {
 
 .container-skills {
     width: 100%;
-    height: 130vh;
+    height: auto;
+    margin: 5% 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     border-top: solid 1px var(--Csecundario);
+   
 }
 
 .box-skills {
     display: flex;
     width: 90%;
-    height: 80vh;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
 }
 
 .titulo-conocimientos-skills {
@@ -210,16 +215,21 @@ main {
 
 .texto-conocimientos-skills {
     width: 20%;
-    height: 40vh;
+    height: auto;
     font-size: 1.25rem;
     display: flex;
     text-align: center;
     align-items: center;
+    margin: 2% 0;
+}
+
+.link-skills {
+    text-decoration: none;
 }
 
 .box-botones-skills {
     width: 50%;
-    height: 70vh;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -259,7 +269,8 @@ main {
 
 .container-someone {
     width: 100%;
-    height: 51.60vh;
+    height: auto;
+    margin: 15% 0;
     background-color: var(--Csecundario);
     display: flex;
     align-items: center;
@@ -269,11 +280,12 @@ main {
 
 .box-someone {
     width: 100%;
-    height: 40vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 8% 0;
 }
 
 .icono-someone {
@@ -287,6 +299,7 @@ main {
     height: auto;
     font-size: 2rem;
     color: lightslategray;
+    margin: 2% 0;
 }
 
 .autor-someone {
@@ -302,17 +315,17 @@ main {
 
 .container-mis-proyectos {
     width: 100%;
-    height: 197vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
     flex-direction: column;
-    margin-bottom: 10%;
+    margin: 8% 0;
 }
 .box-proyectos {
     width: 70%;
-    height: 178vh;
+    height: auto;
     display: flex;
     align-items: center;
     text-align: center;
@@ -337,15 +350,16 @@ main {
     font-size: 1.25rem;
     color: var(--Cparrafos2);
     width: 50%;
-    margin: 3%;
+    margin: 2%;
 }
 .box-img-proyectos {
     width: 100%;
-    height: 160vh;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 5%;
 }
 .box-img-nombre-proyectos {
     width: 380px;
@@ -357,7 +371,7 @@ main {
     flex-direction: column;
     justify-content: center;
     border: 1px solid var(--Cprincipal);
-    margin-bottom: 15%;
+    margin: 0 5% 10% 0;
 }
 
 .imagen-proyectos {
@@ -393,11 +407,12 @@ main {
 
 .container-contactame {
     width: 100%;
-    height: 110vh;
+    height: auto;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10% 0;
 }
 .box-contactame {
     width: 70%;
@@ -477,7 +492,7 @@ main {
     border-radius: 50%;
     font-size: 1.5625rem;
     color: var(--Csecundario);
-    padding: 2%;
+    padding-top: 10px;
     margin-right: 5px;
 }
 
@@ -615,8 +630,7 @@ main {
 }
 
 .enviar {
-    /*width: 40%;
-    height: 5vh;*/
+    height: auto;
     padding: 7%;
     width: 37%;
     font-size: 1.0625rem;
