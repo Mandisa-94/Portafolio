@@ -1,6 +1,6 @@
-# Portafolio de Ada
+# Portafolio - Gabriela Durán
 
-### Para la visual de mi portafolio use como base el diseño que nos propuso ADA y le di una vuelta personal usando una paleta de colores de [coolors](https://coolors.co/palettes/trending) y las ilustraciones de [unDraw](https://undraw.co/illustrations). Priorice la elegancia del modelo que nos brindo ADA por lo que logre una page limpia, rapida y sencilla para facilitar la navegación y experiencia del usuario. Considero que el éxito de un diseño web depende en gran medida de la aceptación entre los usuarios por lo que espero les guste mucho.
+### Este sitio web fue desarrollado para que los usuarios puedan conocer más sobre mi, mis intereses, estudios, conocimientos y proyectos.  El sitio fue diseñado con una paleta de colores de [coolors](https://coolors.co/palettes/trending) y las ilustraciones de [unDraw](https://undraw.co/illustrations). Prioricé la elegancia para lograr una page limpia, rápida y sencilla que facilite la navegación y la experiencia del usuario. Considero que el éxito de un diseño web depende en gran medida de la aceptación entre los usuarios por lo que espero les guste mucho.
 
 ***
 <br>
@@ -33,12 +33,12 @@ git clone <url>
 
 ### Asi debe verse el resultado: 
 
-![Imagen](./img/screencapture-mandisa.png)
+![Imagen](./img/Screencapture-Portafolio.png)
 
 ***
 <br>
 
-### Este proyecto fue desarrollado para [ADA](https://www.linkedin.com/school/ada-itw/) con el fin de tener en un portafolio los trabajos que realicé a lo largo de mi cursada para mostrarlos al mercado laboral. Agradezco a [Jonh Parra](https://www.linkedin.com/in/jonathanparrazavala/) por sus excelentes clases e iniciarme en el mundo de la programación.
+### Este proyecto fue desarrollado para [ADA](https://www.linkedin.com/school/ada-itw/) con el fin de tener en un portafolio los trabajos que realicé a lo largo de mi cursada y mostrarlos al mercado laboral. Agradezco a [Jonh Parra](https://www.linkedin.com/in/jonathanparrazavala/) por sus excelentes clases e iniciarme en el mundo de la programación.
 
 #### [Gabriela Duran](https://www.linkedin.com/in/gabriela-duran94/)🎀
 

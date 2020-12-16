@@ -30,7 +30,8 @@
 
     .box-menu {
         flex-direction: column;
-        align-items: flex-start;    
+        align-items: flex-start;  
+        margin-left: 5%;  
     }
 
     .boton-menu , .contacto-menu {
@@ -122,7 +123,7 @@
     }
 
     .box-botones-skills {
-        width: 100%;
+        width: 90%;
         height: auto;    
     }
 
@@ -543,6 +544,10 @@ main {
        margin-top: 15%;
    }
 
+   .box-botones-skills {
+       width: 75%;
+   }
+
 /*MIS PROYECTOS*/
 
 .box-img-proyectos {
@@ -662,7 +667,7 @@ header {
     .container-img-presentation {
         width: auto;
         height: 50vh;
-}
+    }
 
     .box-img-presentation{
         width: auto;
@@ -672,27 +677,35 @@ header {
 
     /*CONTACTAME*/
 
-    .box-contactame {
-        width: 90vw;
+    .contactame-redes, .box-escribime {
+        width: 50%;
+        height: auto;
     }
+
+     .p-redes {
+    padding: 15% 0;
+    }
+  
+
+
 /* MIS PROYECTOS*/
 
 .container-mis-proyectos {
     height: auto;
-}
+    }
 
   .box-img-proyectos {
       width: 80VW;
       height: auto;
-  }
+    }
 
   .box-img-nombre-proyectos {
       width: 250PX;
       height: 250PX;
-  }
+    }
   .png-proyectos {
       height: 150px;
-  }
+    }
 
     /*FOOTER*/
 
@@ -701,7 +714,7 @@ header {
     }
     .icono-footer {
         padding-top: 20%;
-      }
+    }
 }
 
 
@@ -795,6 +808,7 @@ header {
 
 .lista-redes {
     width: 100%;
+    margin: 0;
 }
 
 .lista-contactame {
