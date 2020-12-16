@@ -44,10 +44,15 @@
 
     .boton-menu , .contacto-menu {
         background-color: var(--Csecundario);
-        border-radius: 20px;
+        border-radius: 15px;
     }
 
-
+    .link-menu:hover {
+        background-color: var(--Cparrafos2);
+        color: var(--Csecundario) ;
+        border-radius: 15px;
+    }
+   
    
 /* PRESENTATION*/ 
 
